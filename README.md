@@ -25,7 +25,7 @@ All PCs should ping each other
 
 # Solution:
 
-Config PC, Switch and Router as you normally would everything pings except to and from VLAN 10. As there is no subinterface VLAN 10 is not created on the router. Solution is to change the native VLAN to 10 in this context. On trunk interface use this command "switchport trunk native vlan 10" to modify native vlan.
+Config PC, Switch and Router as you normally would, everything pings except to and from VLAN 10. As there is no subinterface, VLAN 10 is not created on the router. Solution is to change the native VLAN to 10 in this context. On trunk interface use this command "switchport trunk native vlan 10" to modify native vlan.
 
 
 
